@@ -27,6 +27,18 @@ public class Course {
 	public String getAutor() {
 		return autor;
 	}
+	
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
 
 	@Override
 	public String toString() {
